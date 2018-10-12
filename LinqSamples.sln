@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{A4D4FFD2-8221-45D2-B88D-7637F0A7F01B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "Queries\Queries.csproj", "{2DC0EE4C-43B8-4F3D-9BBF-76F445E1C34F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{C28187F6-1BE2-4D48-A424-F471E686FDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{E5B2D875-6F8F-4589-8788-15C83E148A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{C28187F6-1BE2-4D48-A424-F471E686FDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28187F6-1BE2-4D48-A424-F471E686FDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28187F6-1BE2-4D48-A424-F471E686FDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B2D875-6F8F-4589-8788-15C83E148A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B2D875-6F8F-4589-8788-15C83E148A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B2D875-6F8F-4589-8788-15C83E148A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B2D875-6F8F-4589-8788-15C83E148A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1378E8F0-3434-40FC-BC29-DCA9F40793FE}
 	EndGlobalSection
 EndGlobal
